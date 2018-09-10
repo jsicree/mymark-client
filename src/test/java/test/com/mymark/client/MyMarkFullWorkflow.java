@@ -122,13 +122,13 @@ public class MyMarkFullWorkflow {
 			e.printStackTrace();
 		}
 		
-		System.out.println("\nSTEP 8: Remove All Items from Customer's Shopping Cart");
-		try {
-			cartDto = cartClient.removeAllItemsFromShoppingCart(customer.getIdentifier());
-			System.out.println(prettyPrintShoppingCart(cartDto));
-		} catch (com.mymark.mymarkshoppingcart.api.client.ClientException e) {
-			e.printStackTrace();
-		}
+//		System.out.println("\nSTEP 8: Remove All Items from Customer's Shopping Cart");
+//		try {
+//			cartDto = cartClient.removeAllItemsFromShoppingCart(customer.getIdentifier());
+//			System.out.println(prettyPrintShoppingCart(cartDto));
+//		} catch (com.mymark.mymarkshoppingcart.api.client.ClientException e) {
+//			e.printStackTrace();
+//		}
 
 		System.out.println("\nSTEP 9: Delete Customer and ShoppingCart");
 		// Delete the customer			
